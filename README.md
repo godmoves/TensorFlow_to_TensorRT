@@ -1,7 +1,7 @@
 # TensorFlow to TensorRT
-A demo to show how to convert a TensorFlow model to TnesorRT
+A demo to show how to convert a TensorFlow model to TensorRT
 
-# Denpendencies
+# Dependencies
 - python 3.5  
 - matplotlib  
 - numpy  
@@ -14,7 +14,7 @@ A demo to show how to convert a TensorFlow model to TnesorRT
 
 Use `pip` to install what you need. For `tensorrt`, `pycuda` and `uff`, you can
 find more info [here](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.html#overview).   
-You need to install `tensorrt` by tar package to get python support, but now only python2.7 
+You need to install `tensorrt` by tar package to get python support, but now only python 2.7 
 ans python 3.5 are supported. Find more info ahout how to [download and install](https://developer.nvidia.com/tensorrt). 
 
 # Usage
@@ -28,7 +28,7 @@ python tf2trt.py
 ```
 
 # Result
-You will get the `uff` and `PLAN` file of the Tensorflow model. You can load them using
+You will get the `uff` and `PLAN` file of the TensorFlow model. You can load them using
 python or C++ to speed up you inference. Find how to load the `PLAN` file in python
 in the demo code, if you want more info about how to load it in C++, you can find it 
 [here](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.html#c_topics).
