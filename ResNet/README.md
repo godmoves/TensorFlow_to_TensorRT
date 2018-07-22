@@ -1,5 +1,5 @@
-TRT Tensorflow integration example
-https://devblogs.nvidia.com/tensorrt-integration-speeds-tensorflow-inference/
+## TRT Tensorflow integration example
+Link: https://devblogs.nvidia.com/tensorrt-integration-speeds-tensorflow-inference/
 
 Install tensorRT and Tensorflow with TRT contrib. Instructions are available from:
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/tensorrt
