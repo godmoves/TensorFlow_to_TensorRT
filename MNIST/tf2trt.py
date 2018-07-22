@@ -17,7 +17,7 @@ BATCH_SIZE = 10
 NUM_CLASSES = 10
 MAX_STEPS = 3000
 
-UFF_TO_PLAN_EXE_PATH = './u2p/build/uff_to_plan'
+UFF_TO_PLAN_EXE_PATH = './uff2plan/build/uff_to_plan'
 
 
 def WeightsVariable(shape):
